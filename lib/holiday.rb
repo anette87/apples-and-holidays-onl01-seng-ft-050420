@@ -28,6 +28,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       supply.map.each do |holiday, item|
         item << "Grill"
       return supply 
+        supply << "Table Cloth"
     end 
   end 
 end
