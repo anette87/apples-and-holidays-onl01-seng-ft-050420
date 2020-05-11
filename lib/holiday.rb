@@ -27,6 +27,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     if season == :spring
       supply.map.each do |holiday, item|
         item << "Grill"
+        binding.pry
       return supply
     end 
   end 
